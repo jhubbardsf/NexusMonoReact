@@ -1,12 +1,12 @@
-import logo from "../assets/logo.png";
-import pdfFile from "../assets/user_agreement.pdf"; 
-import NexusSphereLogo from "./NexusSphereLogo";
+import React from 'react';
+import NexusSphereLogo from './NexusSphereLogo';
+import pdfFile from "../assets/user_agreement.pdf"; // Assuming pdfFile is imported here
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
-      <NexusSphereLogo/>
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+    <div className="flex flex-col items-center mt-16 lg:mt-20">
+      <NexusSphereLogo className="blur" />
+      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide mt-8">
         DAO empowering{" "}
         <span className="bg-gradient-to-r from-violet-400 to-violet-800 text-transparent bg-clip-text">
           Ethereum community with transparent decision-making
@@ -17,30 +17,14 @@ const HeroSection = () => {
       </p>
       <div className="flex justify-center my-10">
         <a
-          href={pdfFile} // Set href to the PDF file path
-          target="_blank" // Open in a new tab
-          rel="noopener noreferrer" // Security best practice
+          href={pdfFile}
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-gradient-to-r from-violet-400 to-violet-800 py-3 px-4 mx-3 rounded-md"
         >
           User Agreement
         </a>
       </div>
-      {/* <div className="flex mt-10 justify-center">
-        <div className="relative w-1/2 mx-2 my-4 animate-[fromLeft_0.5s_ease-out]">
-          <div className="rounded-lg border border-violet-700 shadow-sm shadow-violet-400 p-4">
-            <p className="text-lg text-center text-neutral-500">
-              This is the first text section.
-            </p>
-          </div>
-        </div>
-        <div className="relative w-1/2 mx-2 my-4 animate-[fromLeft_0.5s_ease-out_0.2s]">
-          <div className="rounded-lg border border-violet-700 shadow-sm shadow-violet-400 p-4">
-            <p className="text-lg text-center text-neutral-500">
-              This is the second text section.
-            </p>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
