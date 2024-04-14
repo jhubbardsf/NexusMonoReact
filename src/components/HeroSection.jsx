@@ -1,9 +1,11 @@
 import logo from "../assets/logo.png";
+import pdfFile from "../assets/user_agreement.pdf"; 
+import NexusSphereLogo from "./NexusSphereLogo";
 
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
-      <img className="h-20 w-30 mr-2 " src={logo} alt="Logo" />
+      <NexusSphereLogo/>
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         DAO empowering{" "}
         <span className="bg-gradient-to-r from-violet-400 to-violet-800 text-transparent bg-clip-text">
@@ -15,7 +17,9 @@ const HeroSection = () => {
       </p>
       <div className="flex justify-center my-10">
         <a
-          href="#"
+          href={pdfFile} // Set href to the PDF file path
+          target="_blank" // Open in a new tab
+          rel="noopener noreferrer" // Security best practice
           className="bg-gradient-to-r from-violet-400 to-violet-800 py-3 px-4 mx-3 rounded-md"
         >
           User Agreement
