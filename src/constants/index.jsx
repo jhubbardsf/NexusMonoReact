@@ -127,11 +127,11 @@ export const pricingOptions = [
   },
 ];
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
+  { href: "https://nexusspheredao.netlify.app/", text: "Getting Started" },
+  { href: "https://drive.google.com/drive/folders/1z0tpV9ViCcQ9yZr8PMF8JDI6Ep30fKfU?usp=sharing", text: "Documentation" },
+  { href: "https://www.youtube.com/@NEXUS_SPHERE_", text: "Tutorials" },
   { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "https://discord.gg/8EpV46Hd", text: "Community Forums" },
 ];
 
 export const platformLinks = [
