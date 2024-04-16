@@ -4,9 +4,9 @@ import pdfFile from "../assets/user_agreement.pdf"; // Assuming pdfFile is impor
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center mt-16 lg:mt-20">
-      <NexusSphereLogo className="blur" />
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide mt-8">
+    <div className="flex flex-col items-center mt-15 lg:mt-3">
+      <NexusSphereLogo />
+      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide mt-14">
         DAO empowering{" "}
         <span className="bg-gradient-to-r from-violet-400 to-violet-800 text-transparent bg-clip-text">
           Ethereum community with transparent decision-making

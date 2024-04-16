@@ -1,4 +1,3 @@
-import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
@@ -8,6 +7,10 @@ const Navbar = () => {
 
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
+  };
+
+  const handleNavigation = (href) => {
+    window.location.href = href;
   };
 
   return (
@@ -21,13 +24,13 @@ const Navbar = () => {
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href}>{item.label}</a>
+                <a href="#" onClick={() => handleNavigation(item.href)}>{item.label}</a>
               </li>
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a
-              href="#"
+              href=" https://forms.gle/8ZU7acbdsidMKcvr9"
               className="bg-gradient-to-r from-violet-400 to-violet-800 py-2 px-3 rounded-md"
             >
               Join our Waitlist
@@ -35,7 +38,7 @@ const Navbar = () => {
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar}>
-              {mobileDrawerOpen ? <X /> : <Menu />}
+              {mobileDrawerOpen ? "Close" : "Menu"}
             </button>
           </div>
         </div>
@@ -44,11 +47,10 @@ const Navbar = () => {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="text-3xl py-4">
-                  <a href={item.href}>{item.label}</a>
+                  <a href="#" onClick={() => handleNavigation(item.href)}>{item.label}</a>
                 </li>
               ))}
             </ul>
-            
           </div>
         )}
       </div>

@@ -5,8 +5,8 @@ const Pricing = () => {
   return (
     <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
-        Services we <span className="bg-gradient-to-r from-violet-400 to-violet-800 text-transparent bg-clip-text">
-            Offer
+        Our  <span className="bg-gradient-to-r from-violet-400 to-violet-800 text-transparent bg-clip-text">
+            Services
           </span>
       </h2>
       <div className="flex flex-wrap justify-between">
@@ -31,14 +31,14 @@ const Pricing = () => {
               <ul>
                 {option.features.map((feature, index) => (
                   <li key={index} className="mt-8 flex items-center">
-                    <CheckCircle2 />
+                    <CheckCircle2 className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full"/>
                     <span className="ml-2">{feature}</span>
                   </li>
                 ))}
               </ul>
               <a
                 href={option.trialLink}
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-violet-900 border border-violet-900 rounded-lg transition duration-200"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-violet-900 border-4 border-violet-900 rounded-lg transition duration-200"
               >
                 {option.trialText}
               </a>

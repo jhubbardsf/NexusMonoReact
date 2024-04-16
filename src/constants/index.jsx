@@ -18,19 +18,19 @@ export const testimonials = [
     company: "CTO and co-founder",
     image: "https://media.licdn.com/dms/image/D5603AQH1ct3NgdBq1A/profile-displayphoto-shrink_200_200/0/1712770824512?e=1718236800&v=beta&t=R15Ww1sTCQLORPICjbxr_qKtUX6Md_uJEGcU42iJ3tQ", // Use a placeholder image URL
     linkedin: "https://www.linkedin.com/in/karan-palan-476472289/", 
-    text: "I'm CTO, Bitch !",
+    text: "Architecting tomorrow's technology, today.",
   },
   {
     user: "Krish Gupta",
     company: "CEO and co-founder",
     image: "https://media.licdn.com/dms/image/D5635AQFaB5FL4GUqJA/profile-framedphoto-shrink_200_200/0/1706681244607?e=1713567600&v=beta&t=pevyw6JXQISeI58G7idNzrHveBRzuWZsmD6xGAZVVCo", // Use a placeholder image URL
     linkedin: "https://www.linkedin.com/in/krish-gupta-51637b1b8/", 
-    text: "I'm CEO, Bitch !",
+    text: "Driving vision into reality, one strategy at a time.",
   },
   {
-    user: "Shrawani Wagh",
+    user: "Shravani Wagh",
     company: "COO and co-founder",
-    image: "https://media.licdn.com/dms/image/D5635AQELeseuZ6bQLQ/profile-framedphoto-shrink_200_200/0/1709558241121?e=1713567600&v=beta&t=AeMCWKTiCwjvh7NjOD4SQEmwDaRqyrw9yFwqRVftXKU", 
+    image: "https://media.licdn.com/dms/image/D5603AQGRGEUKTCB1hg/profile-displayphoto-shrink_200_200/0/1713203509651?e=1718841600&v=beta&t=EMtgpkJtMGNnjuJX-077uH_KdERF66pPjr4fsj9L0Gw", 
     linkedin: "https://www.linkedin.com/in/shravani-wagh-20a69728a/", 
     text: "Turning chaos into order, with uncompromising precision.",
   },
