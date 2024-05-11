@@ -110,7 +110,7 @@ export const pricingOptions = [
       "Automated execution",
       "Globally accessible",
     ],
-    trialLink: "https://nexusspheredao.netlify.app/",
+    trialLink: "https://nexussphere-b00bd.web.app/",
     trialText: "Start your free trial today!",
   },
   {
