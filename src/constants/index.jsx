@@ -101,18 +101,7 @@ export const checklistItems = [
 ];
 
 export const pricingOptions = [
-  {
-    title: "SOCIAL DAO",
-    price: "Social Decentralized Autonomous Organization is a decentralized collective entity focused on fostering social impact and community-driven initiatives through blockchain technology.",
-    features: [
-      "Transparent and accountable",
-      "Decentralized governance",
-      "Automated execution",
-      "Globally accessible",
-    ],
-    trialLink: "https://nexussphere-b00bd.web.app/",
-    trialText: "MAKE YOUR VOICE HEARD!",
-  },
+ 
   {
     title: "FUNDING DAO",
     price: "A Funding DAO is a decentralized autonomous organization (DAO) designed to collectively manage and distribute funds in a transparent and democratic manner. Here are the key points:",
@@ -124,6 +113,18 @@ export const pricingOptions = [
     ],
     trialLink: "https://nexusspherefindao.web.app/",
     trialText: "DIVERSIFY YOUR PORTFOLIO!",
+  },
+ {
+    title: "SOCIAL DAO",
+    price: "Social Decentralized Autonomous Organization is a decentralized collective entity focused on fostering social impact and community-driven initiatives through blockchain technology.",
+    features: [
+      "Transparent and accountable",
+      "Decentralized governance",
+      "Automated execution",
+      "Globally accessible",
+    ],
+    trialLink: "https://nexussphere-b00bd.web.app/",
+    trialText: "MAKE YOUR VOICE HEARD!",
   },
 ];
 export const resourcesLinks = [
