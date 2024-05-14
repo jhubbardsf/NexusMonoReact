@@ -102,8 +102,8 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "What is a DAO?",
-    price: "A DAO is an organization governed by blockchain-encoded rules, executed automatically through smart contracts.",
+    title: "SOCIAL DAO",
+    price: "Social Decentralized Autonomous Organization is a decentralized collective entity focused on fostering social impact and community-driven initiatives through blockchain technology.",
     features: [
       "Transparent and accountable",
       "Decentralized governance",
@@ -111,19 +111,19 @@ export const pricingOptions = [
       "Globally accessible",
     ],
     trialLink: "https://nexussphere-b00bd.web.app/",
-    trialText: "Start your free trial today!",
+    trialText: "MAKE YOUR VOICE HEARD!",
   },
   {
-    title: "What is DAO governance?",
-    price: "It enables decentralized organizations to create and execute secure, transparent, and tamper-proof voting proposals.",
+    title: "FUNDING DAO",
+    price: "A Funding DAO is a decentralized autonomous organization (DAO) designed to collectively manage and distribute funds in a transparent and democratic manner. Here are the key points:",
     features: [
-      "Off-chain Voting",
+      "Funding Initiatives",
       "Weighted Voting",
       "Voting History",
       "Community Engagement",
     ],
-    trialLink: "#",
-    trialText: "Coming soon!",
+    trialLink: "https://nexusspherefindao.web.app/",
+    trialText: "DIVERSIFY YOUR PORTFOLIO!",
   },
 ];
 export const resourcesLinks = [
